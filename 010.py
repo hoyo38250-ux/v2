@@ -82,4 +82,5 @@ if b5:
 st.sidebar.image('https://i.pinimg.com/564x/f9/13/46/f9134655b53cbeaeb00664b04371b9b0.jpg',caption='Hello!')
 with st.sidebar:
     st.header('Ever wondered what your favorite animal says about you? ')
-    st.write('This page is all about exploring personality through the wild lens of the animal kingdom. Whether youre a bo
+    st.write('This page is all about exploring personality through the wild lens of the animal kingdom. Whether youre a bod lion, a wise owl, or a mysterious octopus, your choice reveals more than just taste—its a peek into your soul. Take the quiz, discover your spirit creature, and learn what makes you uniquely you. It’s playful, insightful, and maybe even a little surprising. Ready to find out who you really are?')
+
