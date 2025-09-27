@@ -27,8 +27,6 @@ if b1:
     with st.expander('Lion'):
         st.write(personality['Lion'])
     with col6: 
-        audio = open('Who can roar the loudest #lion #roar #loud - isaiah malonson.mp3','rb')
-        st.audio(audio, format='audio/wav')
         st.write('Video')
         video1= 'https://www.youtube.com/watch?v=OMkEVX23BdM'
         st.video(video1, format='video/mp4')
@@ -38,8 +36,6 @@ if b2:
     with st.expander('Dog'):
         st.write(personality['Dog'])
     with col6:
-        audio = open('Ollie Pop the Siberian Husky howling - RockyMTN steeze.mp3','rb')
-        st.audio(audio, format='audio/wav')
         st.write('Video')
         video1= 'https://www.youtube.com/watch?v=VDqxSg98CjM'
         st.video(video1, format='video/mp4')
@@ -49,8 +45,6 @@ if b3:
     with st.expander('Swan'):
         st.write(personality['Swan'])
     with col6:
-        audio = open('swan.mp3','rb')
-        st.audio(audio, format='audio/wav')
         st.write('Video')
         video1= 'https://www.youtube.com/watch?v=QZcJ1PdHttA'
         st.video(video1, format='video/mp4')
@@ -60,8 +54,6 @@ if b4:
     with st.expander('Cat'):
         st.write(personality['Cat'])
     with col6: 
-        audio = open('Mèo kêu meo meo - COUNTRYSIDE TV.mp3','rb')
-        st.audio(audio, format='audio/wav')
         st.write('Video')
         video1= 'https://www.youtube.com/watch?v=5ZvUTDPU3Ak'
         st.video(video1, format='video/mp4')
@@ -71,8 +63,6 @@ if b5:
     with st.expander('Horse'):
         st.write(personality['Horse'])
     with col6: 
-        audio = open('Horse sounds.mp3','rb')
-        st.audio(audio, format='audio/wav')
         st.write('Video')
         video1= 'https://www.youtube.com/watch?v=H9aC5AGY9YU'
         st.video(video1, format='video/mp4')
@@ -83,4 +73,5 @@ st.sidebar.image('https://i.pinimg.com/564x/f9/13/46/f9134655b53cbeaeb00664b0437
 with st.sidebar:
     st.header('Ever wondered what your favorite animal says about you? ')
     st.write('This page is all about exploring personality through the wild lens of the animal kingdom. Whether youre a bod lion, a wise owl, or a mysterious octopus, your choice reveals more than just taste—its a peek into your soul. Take the quiz, discover your spirit creature, and learn what makes you uniquely you. It’s playful, insightful, and maybe even a little surprising. Ready to find out who you really are?')
+
 
